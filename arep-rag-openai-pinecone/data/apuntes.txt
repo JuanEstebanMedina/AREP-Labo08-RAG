@@ -1,0 +1,44 @@
+ARQUITECTURA DE SOFTWARE - APUNTES
+
+1. Definición de arquitectura
+La arquitectura de software es el conjunto de decisiones estructurales que definen un sistema.
+Incluye componentes, relaciones, restricciones y principios de diseño que guían la evolución del sistema.
+
+2. Estilos arquitectónicos
+Los estilos arquitectónicos son patrones generales que definen la estructura de un sistema.
+Ejemplos: monolito, microservicios, cliente-servidor, capa en tres niveles, pipes-and-filters, orientado a eventos.
+
+3. Arquitectura monolítica
+Un sistema monolítico agrupa toda la lógica en un solo módulo desplegable.
+Ventajas: simplicidad inicial. Desventajas: baja escalabilidad, difícil mantenimiento, acoplamiento alto.
+
+4. Microservicios
+Los microservicios dividen la aplicación en servicios independientes que se comunican mediante APIs.
+Beneficios: escalabilidad independiente, despliegue individual, tolerancia a fallos.
+Riesgos: complejidad operativa, gestión de red, observabilidad y costos.
+
+5. Arquitectura en capas
+Organiza los componentes en niveles: presentación, lógica de negocio, acceso a datos.
+Cada capa solo interactúa con la inmediatamente inferior.
+Beneficios: modularidad, responsabilidad clara.
+
+6. Clean Architecture
+Separa la lógica de negocio del framework y la infraestructura.
+Las reglas de negocio (entidades, casos de uso) no dependen de detalles externos.
+Permite alta mantenibilidad y testeo independiente.
+
+7. Arquitectura hexagonal
+Propone dividir la aplicación en un núcleo con puertos y adaptadores.
+Los adaptadores conectan el sistema con bases de datos, servicios externos o interfaces visuales.
+
+8. Integración y comunicación
+Los sistemas modernos integran componentes mediante REST, mensajería, colas, eventos o RPC.
+REST es simple y ampliamente adoptado; la mensajería es útil para sistemas distribuidos y tolerancia a fallos.
+
+9. Patrones de escalabilidad
+Incluyen: balanceadores de carga, partición de datos (sharding), cachés distribuidos y autoescalado.
+Estos patrones permiten que el sistema responda adecuadamente a aumentos de carga.
+
+10. Documentación arquitectónica
+La documentación arquitectónica incluye diagramas, decisiones (ADRs), restricciones, patrones utilizados y las justificaciones.
+Una buena documentación debe ser clara, actualizada y comprensible para nuevos miembros del equipo.
