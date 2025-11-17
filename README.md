@@ -224,6 +224,6 @@ Pégalo directamente en `apuntes.txt`.
 
 # Autor
 
-Juan Esteban Medina Rivas
-Escuela Colombiana de Ingeniería Julio Garavito
+Juan Esteban Medina Rivas\
+Escuela Colombiana de Ingeniería Julio Garavito\
 Curso AREP – Arquitecturas Empresariales
